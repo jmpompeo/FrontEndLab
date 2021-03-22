@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="error"></div>  
+    <form id="form" action="/" method="GET">
+        <div>
+            <label for="name">Please enter your name</label>
+            <input id="name" name="name" type="text">
+            <p>Name must be at least 2 letters</p>
+        </div>
+        <div>
+            <label for="phone">Please enter your phone number</label>
+            <input id="number" name="number" type="tel">
+            <p>Phone number must be xxx-xxx-xxxx format (do not include +1)</p>
+        </div>
+        <div>
+            <label for="emailaddress">Please enter your email address</label>
+            <input id="email" name="email" type="email">
+            <p>Email Must be valid (ex johndoe@gmail.com</p>
+        </div>
+        <div>
+            <label for="password">If you're a rewards member, please enter your password here</label>
+            <input id="password" name="password" type="password">
+            <p>Password must be at least 8 characters</p>
+        </div>
+        <button type="submit">Submit</button>
+        <div>
+            <label for="check">Check the box if you want to login</label>
+            <input id="checkbox" name="checkbox" type="checkbox">
+        </div>
+        <div>
+            <label for="date">Please enter today's date</label>
+            <input id="date" name="date" type="date">
+        </div>
+    </form>
+
+    <img src="Programming Meme.jpg"
+</body>
+</html>
