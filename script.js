@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
         messages.push('Invalid Password. Please try again');
     }
 
-    if (regex.test(email)) {
+    if (regex.value.test(email)) {
         messages.push('Invalid email, please try again');
     }
 
