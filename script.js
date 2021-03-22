@@ -21,7 +21,7 @@ form.addEventListener("submit", (e) => {
         messages.push('Invalid email, please try again');
     }
 
-    if (regex.test(phone)) {
+    if (regex1.test(phone)) {
         messages.push('Invalid phone number.');
     }
 
